@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing NGINX... # just a placeholder for this demo
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the code...
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - '**/*'
