@@ -4,8 +4,13 @@ files:
   - source: /index.html
     destination: /var/www/html/
 hooks:
-  BeforeInstall:
-    - location: scripts/install_dependencies.sh
+  
+    BeforeInstall:
+  - location: scripts/install_dependencies.sh
+
+ApplicationStart:
+  - location: scripts/start_server.sh
+
      
       runas: root
   ApplicationStart:
