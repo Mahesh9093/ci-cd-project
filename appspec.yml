@@ -3,7 +3,7 @@ os: linux
 
 files:
   files:
-  - source: /devops.html   <-- Change this to match your actual file
+  - source: /devopspage.html   <-- Change this to match your actual file
     destination: /var/www/html/
     
 
