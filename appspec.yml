@@ -3,7 +3,7 @@ os: linux
 
 files:
   
-    destination: /var/www/
+    destination: /var/www/html
 
 hooks:
   BeforeInstall:
