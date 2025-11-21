@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: devopspage.html
+  
     destination: /var/www/html/
 
 hooks:
