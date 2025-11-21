@@ -2,8 +2,10 @@ version: 0.0
 os: linux
 
 files:
-  
-    destination: /var/www/html
+  files:
+  - source: /devops.html   <-- Change this to match your actual file
+    destination: /var/www/html/
+    
 
 hooks:
   BeforeInstall:
