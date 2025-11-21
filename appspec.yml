@@ -3,7 +3,7 @@ os: linux
 
 files:
   
-    destination: /var/www/html/
+    destination: /var/www/html/devopspage.html
 
 hooks:
   BeforeInstall:
